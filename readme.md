@@ -21,4 +21,3 @@ Have you found a mistake? Report it: https://github.com/avatec/opencart-inpost/i
 # Functions
 1. The ability to define the display of the button of the button of Buttones according to the previously given
 2. The ability to choose from the map based on geolocation (the site must have a SSL certificate and be called via https)
-3. 
