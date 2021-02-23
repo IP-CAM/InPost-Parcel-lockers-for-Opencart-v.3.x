@@ -1,23 +1,24 @@
-# Opencart Inpost - moduł obsługi paczkomatów Inpost
-Przedstawiam Państwu mój autorski moduł wysyłki Inpost - paczkomaty do Opencarta w wersji 3.0. Moduł można wykorzystywać w celach komercyjnych.
+# OpenCart InPost - InPost Parcel lockers
+I present to you my proprietary shipping module InPost - Paczkomaty to OpenCarta version 3.0. The module can be used for commercial purposes.
 
-# Wsparcie
-Moduł Opencart Inpost został udostępniony za darmo, dlatego prosimy wszystkich jego użytkowników o dobrowolne finansowe wsparcie autora. Dzięki waszym datkom będę w stanie dalej rozwijać ten i pozostałe darmowe moduły do Opencarta.
+# Support
+The OpenCart InPost module has been shared for free, so we ask all of its users with voluntary financial support for the author. Thanks to your donations, I will continue to develop this and other free modules for OpenCart.
 
-Wesprzyj rozwój tego oprogramowania - https://paypal.me/pools/c/8p6PzJtLZ3
+Support the development of this software - https://paypal.me/pools/c/8p6pjstlz3
 
-# Instalacja
-Pobierz paczkę zip do Twojej wersji opencarta i zainstaluj ją korzystając z instalatora wbudowanego w Opencart
+# Installation
+Download Zip package to your OpenCart version and install it using the installer built into OpenCart
 
-# Możliwe problemy
-Jeżeli po instalacji, brakuje opisów, skopiuj pliki tłumaczenia language/pl-PL/extension/shipping do właściwego katalogu w Twoim sklepie.
+# Possible problems
+If after installation, descriptions are missing, copy the translation files of Language / en-en / exttension / shipping to the correct directory in your store.
 
-Znalazłeś(aś) błąd ? Zgłoś go: https://github.com/avatec/opencart-inpost/issues
+Have you found a mistake? Report it: https://github.com/avatec/opencart-inpost/issues
 
-# Modyfikacje podstawowej wersji plików
-1. catalog/controller/checkout/checkout.php
-   Dodano kod ładowania pliku inpost.js zaraz pod function index()
+# Modifications of the basic version of files
+1. Catalog / Controller / Checkout / Checkout.php
+   Added code loading the InPost.js file right under Function Index ()
 
-# Funkcje
-1. Możliwość zdefiniowania wyświetlania listy radio buttonów według podanej wcześniej miejscowości
-2. Możliwość wyboru z mapy na podstawie geolokalizacji (witryna musi posiadać certyfikat SSL i być wywołana poprzez https)
+# Functions
+1. The ability to define the display of the button of the button of Buttones according to the previously given
+2. The ability to choose from the map based on geolocation (the site must have a SSL certificate and be called via https)
+3. 
